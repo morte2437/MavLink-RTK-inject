@@ -16,14 +16,7 @@ Useful for integrating GPS RTK corrections into an unmanned aerial system (UAS) 
 
 ## Requirements
 
-- Python 3.6+
 - Compatible GPS module supporting NMEA input and RTCM correction
 - MAVLink-compatible flight controller (e.g., Pixhawk)
 - Serial connection between Raspberry Pi (or similar device) and both GPS and FC
 
-## Installation
-
-Install required packages:
-
-```bash
-pip install pyserial pynmeagps pymavlink
